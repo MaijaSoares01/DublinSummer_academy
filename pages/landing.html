@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Blog - Home</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <script src="./main.js"></script>
+    <script src="./landing.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="landing.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <button id="theme-toggle">Toggle Theme</button>
+    </nav>
+    <header>
+        <h1>Welcome to My Art Blog</h1>
+        <p>Explore my artwork and learn about the materials and techniques I use.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Featured Posts</h2>
+            <!-- Filtering Controls -->
+            <div id="filter-controls">
+                <input id="title-filter" type="text" placeholder="Filter by title">
+                <select id="author-filter">
+                    <option value="">All Authors</option>
+                </select>
+                <select id="sort-order">
+                    <option value="date-asc">Date Ascending</option>
+                    <option value="date-desc">Date Descending</option>
+                    <option value="title-asc">Title Ascending</option>
+                    <option value="title-desc">Title Descending</option>
+                </select>
+            </div>
+            <div id="blog-container">
+                <!-- Blog posts will be loaded here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Art Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
