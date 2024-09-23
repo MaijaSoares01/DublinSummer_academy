@@ -1,1 +1,1 @@
-"# DublinSummer_academy" 
+# DublinSummer_academy

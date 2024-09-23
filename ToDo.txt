@@ -1,0 +1,26 @@
+--Project Brief--
+Blog Website
+    -Create an interactive blog website: the topic is of your choice, but it needs to meet the following requirements
+        -A dark/light mode toggle (done)
+        -A blog page with at least one post already made(within HTML)
+        -A form with 3 fields to add a new blog entry(done)
+            -Title
+            -Author
+            -Entry(to write the content)
+        -A submit button that validates the form through Javascript
+        -A consistent navigation bar on all pages (done)
+        -At least 3 pages (Landing page explaining who you are and what the site is all about. A blog page for blog posts. A Contact page for sending the website owner an email) (done)
+Challenge User Stories
+    -As a user I would like the blog posts to read from an external file so that I can read all the posts sent.
+    -As a user I would like all blogs to be date stamped with todays date and time so that I can see when posts were made.
+    -As a user I would like the browser to alert me when I have posted a blog or sent an email via the Contact Us page so I know my post has been successful.
+Success Criteria
+    -All code is explicitly clean and easy to read, with all W3C coding standards met and created to a professional standard.
+    -A complex layout made using a flex and/or grid
+    -Javascript has been implemented successfully and without scripting errors
+    -The website is updated through form submission, without breaking the original code or layout.
+
+My website idea is to create an art blog showcasing my artwork. I will explain the materials used and the process involved, while also encouraging other artists to share their work. The contact form will include options such as: - Commission request - Question - Comment, and maybe more.
+
+Bonus points: Adding a blog at the top of the page, not the bottom (you could even try filtering blogs/searching/ordering with filter options)
+Bonus points: Deleting a blog post
